@@ -1,3 +1,51 @@
+def playdata():
+    greeting = ""
+    name = "Charlie"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+    return info
+
+def playdata2():
+    greeting = ""
+    name = "Rohan"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+    return info
+
+def playdata3():
+    greeting = ""
+    name = "Sarah"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+    return info
+
+def playdata4():
+    greeting = ""
+    name = "Rivan"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+    return info
+
+def playdata5():
+    greeting = ""
+    name = "Noah"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+    return info
+
+def playlist():
+    return [playdata(), playdata2(), playdata3(), playdata4(), playdata5()]
+
 #Data "setup" for Projects
 #next step would be to extract project data from a database
 def setup():
