@@ -11,7 +11,6 @@ Within our main.py section, we are basically setting up our website. The beginni
 
 In the templates folder, there are several html files, which are used to format the website. Our website is set to have a navigation bar at the top of the page, where links can be clicked to get to another page to then see some of the work we've done. The base.html file acts as a template for the rest of the html files, as they are all fairly similar. Using {% block %} and {% endblock %}, we were able to use the base.html template for the other pages, while also being able to add things to each specific page to make them different (names, links, etc.). For the home.html file, we included a background image by using some <style> </style> details/insturctions from the base.html file as well as some code in our home.html file to import the image into only that file. 
 
-
 In the projects.py section, variables are assigned to names and links so they can be used in the rest of the code. For example, the names, titles, and links to the different works we have done throughout the year are defined in this file. The variables are then assigned into lists that hold these variables for easier access in the other parts of the portfolio's code. These are then compiled using the functions towards the bottom of the code which replicate utilization of object based programming.
 
 # Self Grades
