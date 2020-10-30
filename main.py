@@ -10,6 +10,7 @@ app = Flask(__name__)
 # connects default URL of server to render home.html
 
 
+# Create a sign up page
 @app.route('/')
 def home_route():
     return render_template("home.html", projects=data.setup())
