@@ -51,7 +51,7 @@ def playlist():
 def setup():
     #Person Data
     title = "Charlie-A Portfolio"
-    name = " Charlie-A Portfolio Charlie, Rohan, Sarah, Rivan, Noah"
+    name = "Charlie, Rohan, Sarah, Rivan, Noah"
     source = {
         "name": name,
         "title": title,
