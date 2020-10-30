@@ -2,8 +2,10 @@ import data  # projects definitions are placed in different file
 
 # https://flask.palletsprojects.com/en/1.1.x/api/
 from flask import Flask, render_template
+
 # create a Flask instance
 app = Flask(__name__)
+
 
 # connects default URL of server to render home.html
 
@@ -12,12 +14,14 @@ app = Flask(__name__)
 def home_route():
     return render_template("home.html", projects=data.setup())
 
+
 # connects /hello path of server to render hello.html
 
 
 @app.route('/hello/')
 def hello_route():
     return render_template("hello.html", projects=data.setup())
+
 
 # connects /flask path of server to render flask.html
 
@@ -30,6 +34,11 @@ def flask_route():
 @app.route('/playlist/')
 def playlist_route():
     return render_template("playlist.html", datalist=data.playlist())
+
+
+@app.route('/signup/')
+def playlist_route():
+    return render_template("signup.html", datalist=data.playlist())
 
 
 if __name__ == "__main__":
