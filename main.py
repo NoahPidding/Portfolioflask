@@ -37,8 +37,8 @@ def playlist_route():
 
 
 @app.route('/signup/')
-def playlist_route():
-    return render_template("signup.html", datalist=data.playlist())
+def signup_route():
+    return render_template("signup.html", projects=data.setup())
 
 
 if __name__ == "__main__":
