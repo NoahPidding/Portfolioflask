@@ -35,11 +35,11 @@ def playdata4():
     return info
 
 def playdata5():
-    greeting = ""
+    greeting = "Wassup"
     name = "Noah"
-    dob = ""
+    dob = "Mar 23"
     job = ""
-    story = ""
+    story = "I am a senior at Del Norte High School. I was born in San Diego and am currently 17 years old. I have an older brother who is in college, as well as 2 younger sisters, one in high school and one in middle school.  Some things I like to do in my free time are play video games and sports (mainly soccer)"
     info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
