@@ -37,6 +37,7 @@ def playlist_route():
     return render_template("playlist.html", datalist=data.playlist())
 
 
+# Create a sign up page
 @app.route('/signup/')
 def signup_route():
     return render_template("signup.html", projects=data.setup())
