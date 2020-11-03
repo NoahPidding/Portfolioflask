@@ -1,85 +1,73 @@
-def playdata():
-    greeting = ""
-    name = "Charlie"
-    dob = ""
-    job = ""
-    story = ""
-    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+def runtime():
+    greeting = "Hey, Hey, Hey!"
+    name = "Repl"
+    doa = "October 30"
+    job = "Runtime Link"
+    embed = "https://python-hello-series.jmort1021.repl.run"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
-def playdata2():
-    greeting = ""
-    name = "Rohan"
-    dob = ""
-    job = ""
-    story = ""
-    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+def planning():
+    greeting = "Hey, Hey!"
+    name = "Padlet"
+    doa = "October 23"
+    job = "Project Planning"
+    embed = "https://padlet.com/jmortensen7/csptime1_2"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
-def playdata3():
-    greeting = ""
-    name = "Sarah"
-    dob = ""
-    job = ""
-    story = ""
-    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+def journal():
+    greeting = "Hey!"
+    name = "Google Doc"
+    doa = "October 16"
+    job = "Journal Record"
+    embed = "https://docs.google.com/document/d/1Om-4ns6kmzePFvCB2WAyXArEHLUvKVWcQ7jVwswtX-0/edit"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
-def playdata4():
-    greeting = ""
-    name = "Rivan"
-    dob = ""
-    job = ""
-    story = ""
-    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+def playground():
+    greeting = "Play, Play, Play!"
+    name = "Replit"
+    doa = "October 9"
+    job = "Playground"
+    embed = "https://repl.it/@jmort1021/Python-Hello-Series?lite=true"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
-def playdata5():
-    greeting = "Wassup"
-    name = "Noah"
-    dob = "Mar 23"
-    job = "cashier at Los Primos"
-    story = "I am a senior at Del Norte High School. I was born in San Diego and am currently 17 years old. I have an older brother who is in college, as well as 2 younger sisters, one in high school and one in middle school.  Some things I like to do in my free time are play video games and sports (mainly soccer)"
-    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
+def code():
+    greeting = "Code, Code, Code!"
+    name = "Gist"
+    doa = "October 2"
+    job = "Code Sample"
+    gist = "https://gist.github.com/jm1021/cfb277c7357e02fcb4123a6c7429a5c1.js"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
     return info
 
-def playlist():
-    return [playdata(), playdata2(), playdata3(), playdata4(), playdata5()]
+def alldata():
+    return [runtime(), planning(), journal(), playground(), code()]
 
 #Data "setup" for Projects
 #next step would be to extract project data from a database
 def setup():
-    #Person Data
-    title = "Charlie-A Portfolio"
-    name = "Charlie, Rohan, Sarah, Rivan, Noah"
-    source = {
-        "name": name,
-        "title": title,
-    }
+    #Source Data
+    name = "Nighthawk Coding"
+    github = "https://github.com/nighthawkcoders"
+    linkedin = "https://www.linkedin.com/in/john-mortensen-1021/"
+    youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
+    twitter = "https://twitter.com/NighthawkCoding"
+    source = {"name": name, "github": github, "linkedin": linkedin, "youtube": youtube, "twitter": twitter}
     #Project Data
-    project1 = "Hello Series"
+    project1 =  "Hello Series"
     projlinks1 = [
-        Link(
-            "Project Plan",
-            "https://docs.google.com/document/d/1fl0xDhyVlljBU_9vBKrwyA1KdtyL13fyFEHq5LzqP-A/edit?usp=sharing"
-        ),
-        Link("Repl", "https://repl.it/@charliezhu1/Hangman#README.md"),
-        Link(
-            "Journals",
-            "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
-        )
+        Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
+        Link("Repl", "https://repl.it/@jmort1021/Python-Hello-Series#README.md"),
+        Link("Resources", "https://padlet.com/jmortensen7/csp2021")
     ]
-    project2 = "Flask Project"
+    project2 =  "Flask Project"
     projlinks2 = [
-        Link(
-            "Project Plan",
-            "https://docs.google.com/document/d/1IbB0bGAwiSk8j68Wcs0m1TMWh8LOb2xa7dvgEmebQjc/edit"
-        ),
-        Link("Repl", "https://repl.it/@charliezhu1/Projectexploring#main.py"),
-        Link(
-            "Journals",
-            "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
-        )
+        Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
+        Link("Repl", "https://repl.it/@jmort1021/Python-Web-Portfolio-Series?__cf_chl_jschl_tk__=cff72504752e89d50dea999ce10f859a17ecc294-1603026111-0-AdBP5FO-3nyUc_KVdPlNwvXM4MwUXy1HXHmbiJui1YBnUTPJZ8X4UBZVeYUXrnwRBJVvku9NftGYDWtp8lp4KovKX55R8S4twedzHpa2snwLwoAWaxuc4rgAa2l9J_rWqnNvUNcjJ8-p1V1RuTWV3lIy149lptozqAQdJnGj7PlcJxnu3YH22EXK-jl7bmdQmW9r_9fE1xp8J7sOFS3I1PMgmtoExcDIQSBBTnx1zQsyQGNS6wnuX72MAPnS_x3ZL1ETNRgFbVKpLsFJiR9ED1ErU54wyZYrUxEbZ_txHd7qY1T_s_lE6Ll8jYWHx-GulQ#main.py"),
+        Link("Resources", "https://padlet.com/jmortensen7/csptime1_2")
     ]
     #Project Objects
     proj1 = Project(project1, projlinks1)
@@ -88,20 +76,16 @@ def setup():
     projects = Projects(source, [proj1, proj2])
     return projects
 
-
 #Link class contains button (label) and hypertext reference (href)
 class Link():
     #link data with button and href (url)
     def __init__(self, btn, href):
         self.btn = btn
         self.href = href
-
     def get_btn(self):
         return self.btn
-
     def get_href(self):
         return self.href
-
 
 #Project data class contain project name and links (Link class objects)
 class Project():
@@ -109,13 +93,10 @@ class Project():
     def __init__(self, name, links):
         self.name = name
         self.links = links
-
     def get_name(self):
         return self.name
-
     def get_links(self):
         return self.links
-
 
 #Projects class contains person (owner) and multiple projects (Project class objects)
 class Projects():
@@ -123,11 +104,9 @@ class Projects():
     def __init__(self, source, projects):
         self.source = source
         self.projects = projects
-
     #source data getter
     def get_source(self):
         return self.source
-
     #project data getter
     def get_projects(self):
         return self.projects
