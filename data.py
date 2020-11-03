@@ -20,8 +20,8 @@ def journal():
     greeting = "Hey!"
     name = "Google Doc"
     doa = "October 16"
-    job = "Journal Record"
-    embed = "https://docs.google.com/document/d/1Om-4ns6kmzePFvCB2WAyXArEHLUvKVWcQ7jVwswtX-0/edit"
+    job = "Journals"
+    embed = "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
@@ -35,7 +35,7 @@ def playground():
     return info
 
 def code():
-    greeting = "Code, Code, Code!"
+    greeting = "Code"
     name = "Gist"
     doa = "October 2"
     job = "Code Sample"
@@ -50,24 +50,21 @@ def alldata():
 #next step would be to extract project data from a database
 def setup():
     #Source Data
-    name = "Nighthawk Coding"
-    github = "https://github.com/nighthawkcoders"
-    linkedin = "https://www.linkedin.com/in/john-mortensen-1021/"
-    youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
-    twitter = "https://twitter.com/NighthawkCoding"
-    source = {"name": name, "github": github, "linkedin": linkedin, "youtube": youtube, "twitter": twitter}
+    name = "Charlie-A Portfolio"
+    
+    source = {"name": name}
     #Project Data
     project1 =  "Hello Series"
     projlinks1 = [
-        Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
-        Link("Repl", "https://repl.it/@jmort1021/Python-Hello-Series#README.md"),
-        Link("Resources", "https://padlet.com/jmortensen7/csp2021")
+        Link("Project Plan", "https://docs.google.com/document/d/1fl0xDhyVlljBU_9vBKrwyA1KdtyL13fyFEHq5LzqP-A/edit?usp=sharing"),
+        Link("Repl", "https://repl.it/@charliezhu1/Hangman#README.md"),
+        Link("Journals", "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing")
     ]
     project2 =  "Flask Project"
     projlinks2 = [
-        Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
-        Link("Repl", "https://repl.it/@jmort1021/Python-Web-Portfolio-Series?__cf_chl_jschl_tk__=cff72504752e89d50dea999ce10f859a17ecc294-1603026111-0-AdBP5FO-3nyUc_KVdPlNwvXM4MwUXy1HXHmbiJui1YBnUTPJZ8X4UBZVeYUXrnwRBJVvku9NftGYDWtp8lp4KovKX55R8S4twedzHpa2snwLwoAWaxuc4rgAa2l9J_rWqnNvUNcjJ8-p1V1RuTWV3lIy149lptozqAQdJnGj7PlcJxnu3YH22EXK-jl7bmdQmW9r_9fE1xp8J7sOFS3I1PMgmtoExcDIQSBBTnx1zQsyQGNS6wnuX72MAPnS_x3ZL1ETNRgFbVKpLsFJiR9ED1ErU54wyZYrUxEbZ_txHd7qY1T_s_lE6Ll8jYWHx-GulQ#main.py"),
-        Link("Resources", "https://padlet.com/jmortensen7/csptime1_2")
+        Link("Project Plan", "https://docs.google.com/document/d/1IbB0bGAwiSk8j68Wcs0m1TMWh8LOb2xa7dvgEmebQjc/edit"),
+        Link("Repl", "https://repl.it/@charliezhu1/Projectexploring#main.py"),
+        Link("Resources", "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing")
     ]
     #Project Objects
     proj1 = Project(project1, projlinks1)
