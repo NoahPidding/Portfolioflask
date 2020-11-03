@@ -8,44 +8,55 @@ app = Flask(__name__)
 
 
 # connects default URL of server to render home.html
-
-
-# Create a sign up page
 @app.route('/')
 def home_route():
     return render_template("home.html", projects=data.setup())
 
 
 # connects /hello path of server to render hello.html
-
-
 @app.route('/hello/')
-def hello_route():
+def hello_rooute():
     return render_template("hello.html", projects=data.setup())
 
 
 # connects /flask path of server to render flask.html
-
-
 @app.route('/flask/')
 def flask_route():
     return render_template("flask.html", projects=data.setup())
 
 
-@app.route('/playlist/')
-def playlist_route():
-    return render_template("playlist.html", datalist=data.playlist())
+@app.route("/project/runtime")
+def runtime_route():
+    return render_template("task.html", data=data.runtime())
 
-@app.route('/copy/')
-def copy_route():
-    return render_template("copy.html", projects=data.setup())
 
-# Create a sign up page
-@app.route('/signup/')
-def signup_route():
-    return render_template("signup.html", projects=data.setup())
+@app.route("/project/planning")
+def planning_route():
+    return render_template("task.html", data=data.planning())
+
+
+@app.route("/project/journal")
+def journal_route():
+    return render_template("task.html", data=data.journal())
+
+@app.route("/project/playground")
+def playground_route():
+    return render_template("task.html", data=data.playground())
+
+@app.route("/project/code")
+def code_route():
+    return render_template("task.html", data=data.code())
+
+@app.route("/all/")
+def all_route():
+    return render_template("taskall.html", datalist=data.alldata())
+
+
+@app.route("/hey/")
+def heyheyhey_route():
+    return "<h1 style='background-color:blue;color:white'>Hey Hey Hey!</h1>"
 
 
 if __name__ == "__main__":
     # runs the application on the repl development server
-    app.run(port='3000', host='127.0.0.1')
+    app.run(debug=True)
