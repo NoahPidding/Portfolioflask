@@ -1,70 +1,85 @@
-def runtime():
-    greeting = "Hey, Hey, Hey!"
-    name = "Repl"
-    doa = "October 30"
-    job = "Runtime Link"
-    embed = "https://python-hello-series.jmort1021.repl.run"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
+def playdata():
+    greeting = ""
+    name = "Charlie"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def planning():
-    greeting = "Hey, Hey!"
-    name = "Padlet"
-    doa = "October 23"
-    job = "Project Planning"
-    embed = "https://padlet.com/jmortensen7/csptime1_2"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
+def playdata2():
+    greeting = ""
+    name = "Rohan"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def journal():
-    greeting = "Hey!"
-    name = "Google Doc"
-    doa = "October 16"
-    job = "Journals"
-    embed = "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
+def playdata3():
+    greeting = ""
+    name = "Sarah"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def playground():
-    greeting = "Play, Play, Play!"
-    name = "Replit"
-    doa = "October 9"
-    job = "Playground"
-    embed = "https://repl.it/@jmort1021/Python-Hello-Series?lite=true"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
+def playdata4():
+    greeting = ""
+    name = "Rivan"
+    dob = ""
+    job = ""
+    story = ""
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def code():
-    greeting = "Code"
-    name = "Gist"
-    doa = "October 2"
-    job = "Code Sample"
-    gist = "https://gist.github.com/jm1021/cfb277c7357e02fcb4123a6c7429a5c1.js"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
+def playdata5():
+    greeting = "Wassup"
+    name = "Noah"
+    dob = "Mar 23"
+    job = "cashier at Los Primos"
+    story = "I am a senior at Del Norte High School. I was born in San Diego and am currently 17 years old. I have an older brother who is in college, as well as 2 younger sisters, one in high school and one in middle school.  Some things I like to do in my free time are play video games and sports (mainly soccer)"
+    info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def alldata():
-    return [runtime(), planning(), journal(), playground(), code()]
+def playlist():
+    return [playdata(), playdata2(), playdata3(), playdata4(), playdata5()]
 
 #Data "setup" for Projects
 #next step would be to extract project data from a database
 def setup():
-    #Source Data
-    name = "Charlie-A Portfolio"
-    
-    source = {"name": name}
+    #Person Data
+    title = "Charlie-A Portfolio"
+    name = "Charlie, Rohan, Sarah, Rivan, Noah"
+    source = {
+        "name": name,
+        "title": title,
+    }
     #Project Data
-    project1 =  "Hello Series"
+    project1 = "Hello Series"
     projlinks1 = [
-        Link("Project Plan", "https://docs.google.com/document/d/1fl0xDhyVlljBU_9vBKrwyA1KdtyL13fyFEHq5LzqP-A/edit?usp=sharing"),
+        Link(
+            "Project Plan",
+            "https://docs.google.com/document/d/1fl0xDhyVlljBU_9vBKrwyA1KdtyL13fyFEHq5LzqP-A/edit?usp=sharing"
+        ),
         Link("Repl", "https://repl.it/@charliezhu1/Hangman#README.md"),
-        Link("Journals", "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing")
+        Link(
+            "Journals",
+            "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
+        )
     ]
-    project2 =  "Flask Project"
+    project2 = "Flask Project"
     projlinks2 = [
-        Link("Project Plan", "https://docs.google.com/document/d/1IbB0bGAwiSk8j68Wcs0m1TMWh8LOb2xa7dvgEmebQjc/edit"),
+        Link(
+            "Project Plan",
+            "https://docs.google.com/document/d/1IbB0bGAwiSk8j68Wcs0m1TMWh8LOb2xa7dvgEmebQjc/edit"
+        ),
         Link("Repl", "https://repl.it/@charliezhu1/Projectexploring#main.py"),
-        Link("Resources", "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing")
+        Link(
+            "Journals",
+            "https://docs.google.com/document/d/1fioQivtuh1K1jUl7TWyhOu3eaMYt7DtLRx1GFxRu-Xw/edit?usp=sharing"
+        )
     ]
     #Project Objects
     proj1 = Project(project1, projlinks1)
@@ -73,16 +88,20 @@ def setup():
     projects = Projects(source, [proj1, proj2])
     return projects
 
+
 #Link class contains button (label) and hypertext reference (href)
 class Link():
     #link data with button and href (url)
     def __init__(self, btn, href):
         self.btn = btn
         self.href = href
+
     def get_btn(self):
         return self.btn
+
     def get_href(self):
         return self.href
+
 
 #Project data class contain project name and links (Link class objects)
 class Project():
@@ -90,10 +109,13 @@ class Project():
     def __init__(self, name, links):
         self.name = name
         self.links = links
+
     def get_name(self):
         return self.name
+
     def get_links(self):
         return self.links
+
 
 #Projects class contains person (owner) and multiple projects (Project class objects)
 class Projects():
@@ -101,9 +123,11 @@ class Projects():
     def __init__(self, source, projects):
         self.source = source
         self.projects = projects
+
     #source data getter
     def get_source(self):
         return self.source
+
     #project data getter
     def get_projects(self):
         return self.projects
