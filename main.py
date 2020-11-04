@@ -39,7 +39,26 @@ def playlist_route():
 # Create a sign up page
 @app.route('/signup/')
 def signup_route():
-    return render_template("signup.html", projects=data.setup())
+    return render_template("homemusic.html", projects=data.setup())
+
+# connects /hello path of server to render hello.html
+
+
+@app.route('/rock/')
+def rock_route():
+    return render_template("rock.html", projects=data.setup())
+
+# connects /flask path of server to render flask.html
+
+
+@app.route('/jazz/')
+def jazz_route():
+    return render_template("jazz.html", projects=data.setup())
+
+
+@app.route('/pop/')
+def pop_route():
+    return render_template("pop.html", projects=data.setup())
 
 
 if __name__ == "__main__":
