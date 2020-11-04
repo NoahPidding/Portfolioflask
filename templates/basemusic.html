@@ -15,14 +15,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-
     <style>
 		html {
 			scroll-behavior: smooth;
 		}
 
 		#hero-header {
-			background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/09/Halloween-background-wallpaper-hd.jpg");
+			background-image: url("https://cdn3.pitchfork.com/longform/683/Year_In_Streaming_v2.jpg");
 			height: 100vh;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -53,14 +52,66 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="/hello">Hello Series</a>
-            <a class="nav-link" href="/flask">Flask Project</a>
-            <a class="nav-link" href="/music">Music</a>
+          <a class="nav-link active" href="/music">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/pop">Pop</a>
+          <a class="nav-link" href="/rock">Rock</a>
+          <a class="nav-link" href="/jazz">Jazz</a>
         </div>
       </div>
     </nav>
     
+    <div id="anojs-sine-waves" style="padding-bottom:50px;"></div>
+    <script>
+        // calixo888
+
+        let canvasDiv = document.querySelector("#anojs-sine-waves");
+
+        canvasDiv.innerHTML += "
+
+let canvas = document.querySelector("#anojs-sine-waves-canvas");
+
+canvas.style.width = '100%';
+canvas.style.height = '100%';
+
+canvas.width = canvas.offsetWidth;
+canvas.height = canvas.offsetHeight;
+
+let c = canvas.getContext("2d");
+
+// Event Listeners
+addEventListener("resize", () => {
+    innerWidth = window.innerWidth;
+    innerHeight = window.innerHeight;
+});
+
+let position = innerHeight / 2;
+let wavelength = 0.01;
+let frequency = 1;
+let amplitude = 100;
+
+let animate = () => {
+    requestAnimationFrame(animate);
+    c.fillStyle = "rgba(0,0,0,0.01)";
+    c.fillRect(0, 0, innerWidth, innerHeight);
+
+    for (var i = 0; i < 3; i++) {
+        c.beginPath();
+        c.moveTo(0, position);
+
+        for (var j = 0; j < innerWidth; j++) {
+            // y formula: [position] + Math.sin(i * [wavelength (decimal)] + [frequency]) * amplitude)
+            c.lineTo(j, position + Math.sin(j * wavelength + frequency) * amplitude * Math.sin(frequency));
+        }
+
+        c.strokeStyle = "hsl(" + (Math.abs(100 * Math.sin(frequency)) + 100) + ", 50%, 50%)";
+
+        c.stroke();
+        frequency += .005;
+    }
+}
+
+animate();"
+    </script>
             
     <div class="container-fluid">
       <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">         
