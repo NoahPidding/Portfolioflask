@@ -11,10 +11,10 @@
 
 
 <html>
-  <head>
+<head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 
     <style>
 		html {
@@ -42,73 +42,79 @@
     </style>
     {% block head %}
     {% endblock %}
-  </head>
-  
-  <body style="background-color:black;">
-    <!-- Navigation Bar from bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">{{title}}</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+
+<body style="background-color:black;">
+<!-- Navigation Bar from bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-	    <a class="nav-link" href="/playlist">About Us</a>
+            <a class="nav-link" href="/playlist">About Us</a>
             <a class="nav-link" href="/hello">Hello Series</a>
             <a class="nav-link" href="/flask">Flask Project</a>
             <a class="nav-link" href="/music">Music</a>
         </div>
-      </div>
-    </nav>
-    
-            
-    <div class="container-fluid">
-      <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">         
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
         <div class="col-2" style="text-align: right; color: white">
-          {% block info %}
-          <!-- notice jinja style variables used in href's -->
+            {% block info %}
+            <!-- notice jinja style variables used in href's -->
             <h5>{{name}}</h5>
-          {% endblock %}
-        </div>
-      </div>
-      
-      {% block header %}
-      {% endblock %}
-    
-      <div class="product" style="margin-top: 2%;">
-          {% block style %}
-          {% endblock %}
-          
-              <div class="col-8" >
-                  {% block title %}
-                  {% endblock %}
-              </div>
-
-          </div>
-
-          <div class="row" style="padding-left: 10%;">
-              <div class="col-4">
-                {% block link1 %}
-                {% endblock %}
-              </div>
-
-              <div class="col-4">
-                {% block link2 %}
-                {% endblock %}
-              </div>
-
-              <div class="col-4">
-                {% block link3 %}
-                {% endblock %}
-              </div>
-
-          </div>
-
+            {% endblock %}
         </div>
     </div>
-  </body>
 
-  
+    {% block header %}
+    {% endblock %}
+
+    <div class="product" style="margin-top: 2%;">
+        {% block style %}
+        {% endblock %}
+
+        <div class="col-8" >
+            {% block title %}
+            {% endblock %}
+        </div>
+
+    </div>
+
+    <div class="row" style="padding-left: 10%;">
+        <div class="col-4">
+            {% block link1 %}
+            {% endblock %}
+        </div>
+
+        <div class="col-4">
+            {% block link2 %}
+            {% endblock %}
+        </div>
+
+        <div class="col-4">
+            {% block link3 %}
+            {% endblock %}
+        </div>
+
+    </div>
+
+</div>
+</div>
+{% block projectplan %}
+{% endblock %}
+{% block repl %}
+{% endblock %}
+{% block journal %}
+{% endblock %}
+</body>
+
+
 
 </html>
