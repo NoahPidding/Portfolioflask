@@ -36,8 +36,8 @@ def flask_route():
 def playlist_route():
     return render_template("playlist.html", datalist=data.playlist())
 
-
-@app.route('/music/')
+# Create a sign up page
+@app.route('/signup/')
 def signup_route():
     return render_template("homemusic.html", projects=data.setup())
 
