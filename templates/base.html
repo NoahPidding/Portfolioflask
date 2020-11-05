@@ -64,49 +64,49 @@
     
             
     <div class="container-fluid">
-      <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">         
-        <div class="col-2" style="text-align: right; color: white">
-          {% block info %}
-          <!-- notice jinja style variables used in href's -->
+        <!-- Names: haven't decided if we like these in the design yet
+        <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+          <div class="col-2" style="text-align: right; color: white">
+            {% block info %}
+             notice jinja style variables used in href's
             <h5>{{name}}</h5>
           {% endblock %}
         </div>
-      </div>
+      </div> -->
       
       {% block header %}
       {% endblock %}
-    
+
       <div class="product" style="margin-top: 2%;">
           {% block style %}
           {% endblock %}
-          
-              <div class="col-8" >
-                  {% block title %}
-                  {% endblock %}
-              </div>
 
+          <div class="col-8" style="background-color:orange;border:3px solid white;color:white;width:60%;padding:2%; margin-bottom: 100px;">
+              {% block title %}
+              {% endblock %}
           </div>
 
-          <div class="row" style="padding-left: 10%;">
-              <div class="col-4">
-                {% block link1 %}
-                {% endblock %}
-              </div>
-
-              <div class="col-4">
-                {% block link2 %}
-                {% endblock %}
-              </div>
-
-              <div class="col-4">
-                {% block link3 %}
-                {% endblock %}
-              </div>
-
+      </div>
+        <!--
+      <div class="row" style="padding-left: 10%;">
+          <div class="col-4">
+            {% block link1 %}
+            {% endblock %}
           </div>
 
-        </div>
-    </div>
+          <div class="col-4">
+            {% block link2 %}
+            {% endblock %}
+          </div>
+
+          <div class="col-4">
+            {% block link3 %}
+            {% endblock %}
+          </div>
+
+      </div>
+      -->
+
   {% block projectplan %}
   {% endblock %}
   {% block repl %}
