@@ -10,11 +10,27 @@
 {% endblock %}
 
 {% block header %}
-<div id="hero-header">
+<div id="hero-header" style="height:50vh">
   <div class="hero-text">
     <h1 style="font-size:50px">Music Encyclopedia</h1>
     <p>Your one-stop shop for all things music</p>
   </div>
 </div>
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false" style="width:100vw; background-color:#F77F00;border-radius:0px;
+          border:none;">
+    Select Music Type
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100vw">
+    <a class="dropdown-item" href="/pop">Pop</a>
+    <a class="dropdown-item" href="/rock">Rock</a>
+    <a class="dropdown-item" href="/jazz">Jazz</a>
+  </div>
+</div>
+
+{% block music %}
+{% endblock %}
 
 {% endblock %}
