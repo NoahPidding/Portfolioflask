@@ -25,16 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="made the menu work on mobile">
+    <list default="true" id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="changed info">
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolioflask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolioflask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flask.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flask.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homemusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homemusic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jazz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rock.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +100,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\sarah\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\troll\IdeaProjects\algorithms\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -122,6 +115,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604603906811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed info">
+      <created>1604608723279</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604608723279</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -228,7 +232,8 @@
     <MESSAGE value="made the about us page based on the template, removed the unnecessary names at the top." />
     <MESSAGE value="Commit to prevent error" />
     <MESSAGE value="made the menu work on mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the menu work on mobile" />
+    <MESSAGE value="changed info" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed info" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Intentions" timestamp="1604597396296">
@@ -239,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604599269094" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604001383029">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604608899389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604001383029" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604608899389" />
     <state x="503" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603997544216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,22 +260,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="314" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1604000427908" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1604606068905">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604608981723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604606068905" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1604606068905">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604608981723" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604608981722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604606068905" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1604606068904">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604608981722" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604608981722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604606068904" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1604606068905">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604608981722" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604608981723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604606068905" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604608981723" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604521887912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
