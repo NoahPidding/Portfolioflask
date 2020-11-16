@@ -16,23 +16,15 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="changed info">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4bcc8be4-36ad-4295-be5f-6f17adde6d30" name="Default Changelist" comment="embed">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_2020_12_39_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_2020_12_39_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_14_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_14_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_46_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_46_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_2_25_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_2_25_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,58 +32,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1jZ1BYxM4TrCjHiz0USncaSSr21" />
+  <component name="ProjectId" id="1jIC20tQGQ9Af9LBKkYO7ahXgXS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sarah\IdeaProjects\Portfolioflask\templates" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Portfolioflask" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Projectexploring" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Projectexploring/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,17 +71,17 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Portfolioflask" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\sarah\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Noah Pidding\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -122,100 +92,41 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.data" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.data" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="" />
-      <created>1603996665280</created>
+      <changelist id="4bcc8be4-36ad-4295-be5f-6f17adde6d30" name="Default Changelist" comment="" />
+      <created>1603482008445</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603996665280</updated>
+      <updated>1603482008445</updated>
     </task>
-    <task id="LOCAL-00001" summary="Test Commit">
-      <created>1604001442384</created>
+    <task id="LOCAL-00001" summary="embed">
+      <created>1604445578055</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1604001442385</updated>
+      <updated>1604445578055</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add sign up page">
-      <created>1604085178898</created>
+    <task id="LOCAL-00002" summary="embed">
+      <created>1605214040141</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1604085178898</updated>
+      <updated>1605214040141</updated>
     </task>
-    <task id="LOCAL-00003" summary="Correct Sign Up page">
-      <created>1604086005890</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604086005890</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Correct Sign Up page pt.2">
-      <created>1604086326271</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604086326271</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Combine music site and portfolio site">
-      <created>1604522900307</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604522900307</updated>
-    </task>
-    <task id="LOCAL-00006" summary="made the about us page based on the template, removed the unnecessary names at the top.">
-      <created>1604599135705</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1604599135705</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Commit to prevent error">
-      <created>1604599195347</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1604599195347</updated>
-    </task>
-    <task id="LOCAL-00008" summary="made the menu work on mobile">
-      <created>1604603906811</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1604603906811</updated>
-    </task>
-    <task id="LOCAL-00009" summary="changed info">
-      <created>1604608723279</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1604608723279</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -230,102 +141,85 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test Commit" />
-    <MESSAGE value="Add sign up page" />
-    <MESSAGE value="Correct Sign Up page" />
-    <MESSAGE value="Correct Sign Up page pt.2" />
-    <MESSAGE value="Combine music site and portfolio site" />
-    <MESSAGE value="made the about us page based on the template, removed the unnecessary names at the top." />
-    <MESSAGE value="Commit to prevent error" />
-    <MESSAGE value="made the menu work on mobile" />
-    <MESSAGE value="changed info" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed info" />
+    <MESSAGE value="embed" />
+    <option name="LAST_COMMIT_MESSAGE" value="embed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Intentions" timestamp="1604597396296">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="181" y="0" key="#Project_Structure" timestamp="1604609172503">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="70" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1604597396296" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1605559366797">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="181" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604609172503" />
+    <state x="181" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1603482113770" />
+    <state x="2032" y="60" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605560519929">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605559366797" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604608899389">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2032" y="60" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605560519929" />
+    <state width="1318" height="254" key="GridCell.Tab.0.bottom" timestamp="1605562710476">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604608899389" />
-    <state x="503" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603997544216">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604609196231" />
+    <state width="1318" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605562710476" />
+    <state width="1286" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603827759846" />
+    <state width="1318" height="254" key="GridCell.Tab.0.center" timestamp="1605562710474">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="503" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1603997544216" />
-    <state x="549" y="129" key="FileChooserDialogImpl" timestamp="1604100402293">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="188" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604609196231" />
+    <state width="1318" height="254" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605562710474" />
+    <state width="1286" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603827759846" />
+    <state width="1318" height="254" key="GridCell.Tab.0.left" timestamp="1605562710473">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="129" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604100402293" />
-    <state x="593" y="314" key="Github.CreateGistDialog" timestamp="1604000427908">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="188" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604609196231" />
+    <state width="1318" height="254" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605562710473" />
+    <state width="1286" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603827759845" />
+    <state width="1318" height="254" key="GridCell.Tab.0.right" timestamp="1605562710475">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="593" y="314" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1604000427908" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1605559880501">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="188" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604609196231" />
+    <state width="1318" height="254" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605562710475" />
+    <state width="1286" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603827759846" />
+    <state width="1286" height="208" key="GridCell.Tab.1.bottom" timestamp="1603484016140">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605559880501" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1605559880501">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="208" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603484016140" />
+    <state width="1286" height="208" key="GridCell.Tab.1.center" timestamp="1603484016139">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605559880501" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1605559880501">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="208" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603484016139" />
+    <state width="1286" height="208" key="GridCell.Tab.1.left" timestamp="1603484016139">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605559880501" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1605559880501">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="208" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603484016139" />
+    <state width="1286" height="208" key="GridCell.Tab.1.right" timestamp="1603484016140">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605559880501" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604521887912">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1286" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603484016140" />
+    <state x="140" y="40" key="MergeDialog" timestamp="1604445951073">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1604521887912">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="140" y="40" key="MergeDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604445951073" />
+    <state x="218" y="222" key="MultipleFileMergeDialog" timestamp="1604445951089">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1604521887912">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="218" y="222" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604445951089" />
+    <state x="1640" y="0" key="SettingsEditor" timestamp="1605214448610">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1604521887912">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="195" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604092402125" />
+    <state x="1640" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605214448610" />
+    <state x="2088" y="238" key="Vcs.Push.Dialog.v2" timestamp="1605214068539">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
-    <state x="147" y="64" key="MergeDialog" timestamp="1604599245928">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2088" y="238" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605214068539" />
+    <state x="2084" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605214115230">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604599245928" />
-    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1604599256729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="511" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604608364789" />
+    <state x="2084" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605214115230" />
+    <state x="350" y="157" key="run.anything.popup" timestamp="1604446254822">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604599256729" />
-    <state x="439" y="116" key="NewModule_or_Project.wizard" timestamp="1604100419458">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="439" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1604100419458" />
-    <state x="441" y="35" key="SettingsEditor" timestamp="1604086383792">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="441" y="35" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604086383792" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604603913054">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604603913054" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604599198000">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604599198000" />
-    <state x="245" y="90" key="new project wizard" timestamp="1604100350737">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="245" y="90" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604100350737" />
+    <state x="350" y="157" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604446254822" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
