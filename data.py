@@ -11,11 +11,13 @@ def playdata():
 
 
 def playdata2():
-    greeting = ""
+    greeting = "Hey"
     name = "Rohan"
-    dob = ""
-    job = ""
-    story = ""
+    dob = "January 1st"
+    job = "None"
+    story = "I am a 16 year old Junior at Del Norte High School and I was born in Austin, Texas. " \
+            "I have one younger brother in the 9th grade who also goes to DNHS. Things I enjoy doing " \
+            "in my free time are eating, reading, and playing video games."
     info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
@@ -34,11 +36,13 @@ def playdata3():
 
 
 def playdata4():
-    greeting = ""
+    greeting = "Hello"
     name = "Rivan"
-    dob = ""
-    job = ""
-    story = ""
+    dob = "November 29th"
+    job = "None"
+    story = "I'm a senior at DNHS. I am currently sixteen years old" \
+            "and I love band. I have one sibling, and she is currently" \
+            "in seventh grade."
     info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
