@@ -11,11 +11,13 @@ def playdata():
 
 
 def playdata2():
-    greeting = ""
+    greeting = "Hey"
     name = "Rohan"
-    dob = ""
-    job = ""
-    story = ""
+    dob = "January 1st"
+    job = "None"
+    story = "I am a 16 year old Junior at Del Norte High School and I was born in Austin, Texas. " \
+            "I have one younger brother in the 9th grade who also goes to DNHS. Things I enjoy doing " \
+            "in my free time are eating, reading, and playing video games."
     info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
