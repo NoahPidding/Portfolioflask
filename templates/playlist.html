@@ -16,7 +16,7 @@
 
 {% block projectplan %}
 
-<div style="color:white;">
+<div style="color:white; padding: 50px 150px; padding-bottom:100px;">
     {% for data in datalist: %}
         {% set greeting = data["greeting"] %}
         {% set name = data["name"] %}
@@ -24,7 +24,7 @@
         {% set job = data["job"] %}
         {% set story = data["story"] %}
 
-        <ol style="list-style-type:none;">
+        <ol style="list-style-type:none; padding-bottom:80px">
             <li><H1>"{{greeting}} my name is <span style='color:orangered;'>{{name}}</span>"</H1></li>
             <li>"My birthday is <span style='color:orangered;'>{{dob}}</span>"</li>
             <li>"My job is a <span style='color:orangered;'>{{job}}</span>"</li>

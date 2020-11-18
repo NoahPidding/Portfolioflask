@@ -9,7 +9,7 @@
 
     .table {
     display: grid;
-    padding:30px;
+    padding:30px 100px;
     color:white;
     column-gap:35px;
     grid-row-gap:35px;
@@ -21,6 +21,7 @@
          "vid3 desc3"
          "vid4 desc4"
     }
+
   </style>
 {% endblock %}
 
@@ -34,7 +35,7 @@
 
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false" style="width:100vw; background-color:#F77F00;border-radius:0px;
+          aria-haspopup="true" aria-expanded="false" style="width:100%; background-color:#F77F00;border-radius:0px;
           border:none;">
     Select Music Type
   </button>
@@ -57,25 +58,25 @@
   <div style="grid-area:vid1">
     {% block vid1 %}{% endblock %}
   </div>
-  <div style="grid-area:desc1">
+  <div style="grid-area:desc1; padding-right:100px;">
     {% block desc1 %}{% endblock %}
   </div>
   <div style="grid-area:vid2">
     {% block vid2 %}{% endblock %}
   </div>
-  <div style="grid-area:desc2">
+  <div style="grid-area:desc2; padding-right:100px;">
     {% block desc2 %}{% endblock %}
   </div>
   <div style="grid-area:vid3">
     {% block vid3 %}{% endblock %}
   </div>
-  <div style="grid-area:desc3">
+  <div style="grid-area:desc3; padding-right:100px;">
     {% block desc3 %}{% endblock %}
   </div>
   <div style="grid-area:vid4">
     {% block vid4 %}{% endblock %}
   </div>
-  <div style="grid-area:desc4">
+  <div style="grid-area:desc4; padding-right:100px;">
     {% block desc4 %}{% endblock %}
   </div>
 </div>
