@@ -25,18 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="fixed the pop page">
-      <change afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+    <list default="true" id="7da75a54-54de-4578-aec5-d34d5ee58c7e" name="Default Changelist" comment="added more to music">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_2020_12_39_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_2020_12_39_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_14_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_14_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_46_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_12_46_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_2_25_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_30_2020_2_25_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flask.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flask.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homemusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homemusic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jazz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rock.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +69,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sarah\IdeaProjects\Portfolioflask\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sarah\IdeaProjects\Portfolioflask\static" />
-      <recent name="C:\Users\sarah\IdeaProjects\Portfolioflask\templates" />
-      <recent name="C:\Users\sarah\IdeaProjects\Portfolioflask" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -114,7 +104,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\sarah\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\troll\IdeaProjects\algorithms\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -212,26 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1604608723279</updated>
     </task>
-    <task id="LOCAL-00010" summary="Text aligned to left">
-      <created>1605559922152</created>
+    <task id="LOCAL-00010" summary="added more to music">
+      <created>1605645442582</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1605559922152</updated>
+      <updated>1605645442582</updated>
     </task>
-    <task id="LOCAL-00011" summary="fixed the pop page">
-      <created>1605651592320</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1605651592320</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -265,9 +244,8 @@
     <MESSAGE value="Commit to prevent error" />
     <MESSAGE value="made the menu work on mobile" />
     <MESSAGE value="changed info" />
-    <MESSAGE value="Text aligned to left" />
-    <MESSAGE value="fixed the pop page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the pop page" />
+    <MESSAGE value="added more to music" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more to music" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Intentions" timestamp="1604597396296">
@@ -278,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605559366797" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604608899389">
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605644798471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604608899389" />
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605644798471" />
     <state x="503" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603997544216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -294,66 +272,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="314" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1604000427908" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1605660556381">
+    <state width="1478" height="210" key="GridCell.Tab.0.bottom" timestamp="1605724481557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605660556381" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1605660556381">
+    <state width="1478" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605724481557" />
+    <state width="1478" height="210" key="GridCell.Tab.0.center" timestamp="1605724481557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605660556381" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1605660556381">
+    <state width="1478" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605724481557" />
+    <state width="1478" height="210" key="GridCell.Tab.0.left" timestamp="1605724481557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605660556381" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1605660556381">
+    <state width="1478" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605724481557" />
+    <state width="1478" height="210" key="GridCell.Tab.0.right" timestamp="1605724481557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605660556381" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605658961111">
+    <state width="1478" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605724481557" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604521887912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605658961111" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605658961110">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1604521887912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605658961110" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605658961110">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1604521887912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605658961110" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605658961110">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1604521887912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605658961110" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604521887912" />
     <state x="147" y="64" key="MergeDialog" timestamp="1604599245928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604599245928" />
-    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1605651615889">
+    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1604599256729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605651615889" />
+    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604599256729" />
     <state x="439" y="116" key="NewModule_or_Project.wizard" timestamp="1604100419458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1604100419458" />
-    <state x="90" y="114" key="SettingsEditor" timestamp="1605658910083">
+    <state x="441" y="35" key="SettingsEditor" timestamp="1604086383792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="90" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605658910083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605651643297">
+    <state x="441" y="35" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604086383792" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605645448195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605651643297" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605659100242">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605645448195" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605645106106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1605659100242" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605651638326">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605651638326" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605645106106" />
     <state x="245" y="90" key="new project wizard" timestamp="1604100350737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
