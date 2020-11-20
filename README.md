@@ -46,13 +46,4 @@ In the projects.py section, variables are assigned to names and links so they ca
 
 With the music section of our project, we first had the project on repl, in which we ended up transferring it into Github and Intellij. We created a new template html file so that the genres of music pages looked different than the pages with our projects on them. Instead of creating a whole new navigation bar, we decided to use a drop down menu instead which the user could select the three different genres of music we included: pop, rock and jazz. We embedded multiple videos on each page and added a brief description as well. 
 
-# Self Grades
-Rohan: 5/5(implemented the nav bar with bootstrap and accompanying variables, also edited the main.py file in order to better fit the needs of our portfolio)
 
-Rivan: 5/5(changed the definition of each variable to suit our portfolio, which also meant changing links, and implementing a new href for our video.)
-
-Noah: 5/5(utilized the jinja code in order to create space for headers and other aspects of the portfolio, was also able to figure out how to implement these headers and figured out how to do lists in html for the future.)
-
-Sarah: 5/5(was able to implement the usage of images into the website for our theme, and was able to format the images and text to the correct areas.)
-
-Charlie: 5/5(found out how to change the color of the div boxes in order to better show our theme, and also found out how to change text colors and background colors to fit the Halloween theme.) 
