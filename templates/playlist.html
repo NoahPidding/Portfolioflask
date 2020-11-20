@@ -17,6 +17,8 @@
 {% block projectplan %}
 
 <div style="color:white; padding: 50px 150px; padding-bottom:100px;">
+
+    <!--  For loop iterates through the datalist, reads all team members into a list. -->
     {% for data in datalist: %}
         {% set greeting = data["greeting"] %}
         {% set name = data["name"] %}
